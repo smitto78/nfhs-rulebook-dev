@@ -1,1 +1,8 @@
 streamlit
+openai>=1.0.0
+PyPDF2
+docx2txt
+pandas
+opentelemetry-instrumentation-openai-v2
+openai-agents
+langsmith[openai-agents]
