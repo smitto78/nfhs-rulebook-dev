@@ -8,7 +8,7 @@ from agents import Agent, Runner, set_default_openai_key
 from agents.tracing import trace
 
 # --- VERSION CONFIG ---
-RULE_VERSION = "65"
+RULE_VERSION = "66"
 
 # © 2025 Tommy Smith. All Rights Reserved.
 # NFHS Football Rules Assistant – 2025 Edition
