@@ -1,8 +1,9 @@
 streamlit==1.38.0
 openai==1.40.3
 tiktoken==0.7.0
-python-dotenv==1.0.1
+python-dotenv==1.1.1
 PyPDF2==3.0.1
 docx2txt==0.8
 pandas==2.2.2
 opentelemetry-instrumentation-openai-v2==0.46b0
+python==3.13.7
