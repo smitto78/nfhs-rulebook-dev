@@ -8,7 +8,7 @@ from agents import Agent, Runner, set_default_openai_key
 from agents.tracing import trace
 
 # --- VERSION CONFIG ---
-RULE_VERSION = "dev66"
+RULE_VERSION = "66"
 
 # --- ENVIRONMENT SETUP ---
 os.environ["OPENAI_TRACING_ENABLED"] = "true"
@@ -34,7 +34,7 @@ _qp_val = params.get("query", [""])[0]
 debug_mode = _qp_val.lower() == "debug"
 
 # --- PAGE SETUP ---
-st.set_page_config(page_title="🏈 NFHS Football Rules Assistant – 2025 Edition", layout="wide")
+st.set_page_config(page_title="🏈 NFHS Football Rules Assistant – 2025 Edition | dev.{RULE_VERSION}", layout="wide")
 st.title("🏈 NFHS Football Rules Assistant – 2025 Edition")
 
 # --- UNIFIED STYLES ---
@@ -242,7 +242,7 @@ st.markdown(f"""
 }}
 </style>
 <div class="footer">
-    NFHS Football Rules Assistant – 2025 Edition v1.{RULE_VERSION}<br>
+    NFHS Football Rules Assistant – 2025 Edition v1.dev{RULE_VERSION}<br>
     © 2025 Tommy Smith. All Rights Reserved.
 </div>
 """, unsafe_allow_html=True)
