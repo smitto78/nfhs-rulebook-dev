@@ -34,8 +34,8 @@ _qp_val = params.get("query", [""])[0]
 debug_mode = _qp_val.lower() == "debug"
 
 # --- PAGE SETUP ---
-st.set_page_config(page_title="🏈 NFHS Football Rules Assistant – 2025 Edition | dev.{RULE_VERSION}", layout="wide")
-st.title("🏈 NFHS Football Rules Assistant – 2025 Edition | dev.{RULE_VERSION}")
+st.set_page_config(page_title="🏈 NFHS Football Rules Assistant – 2025 Edition | dev."{RULE_VERSION}, layout="wide")
+st.title("🏈 NFHS Football Rules Assistant – 2025 Edition | dev."{RULE_VERSION})
 
 # --- UNIFIED STYLES ---
 st.markdown("""
