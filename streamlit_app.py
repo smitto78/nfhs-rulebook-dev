@@ -8,7 +8,7 @@ from agents import Agent, Runner, set_default_openai_key
 from agents.tracing import trace
 
 # --- VERSION CONFIG ---
-RULE_VERSION = "66"
+RULE_VERSION = "dev66"
 
 # --- ENVIRONMENT SETUP ---
 os.environ["OPENAI_TRACING_ENABLED"] = "true"
