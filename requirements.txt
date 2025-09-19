@@ -1,7 +1,7 @@
 setuptools>=70
 wheel>=0.44
 streamlit==1.38.0
-openai==1.47.0
+openai==1.66.0
 tiktoken==0.7.0
 python-dotenv==1.1.1
 PyPDF2==3.0.1
