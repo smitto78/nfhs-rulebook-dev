@@ -8,3 +8,5 @@ PyPDF2==3.0.1
 docx2txt==0.8
 pandas==2.2.2
 opentelemetry-instrumentation-openai==0.47.2
+openai-agents
+langsmith[openai-agents]
