@@ -1,5 +1,5 @@
-setuptools>=70
-wheel>=0.44
+setuptools==80.0.0
+wheel==0.45.1
 streamlit==1.38.0
 openai==1.66.0
 tiktoken==0.7.0
@@ -8,5 +8,5 @@ PyPDF2==3.0.1
 docx2txt==0.8
 pandas==2.2.2
 opentelemetry-instrumentation-openai==0.47.2
-openai-agents
-langsmith[openai-agents]
+openai-agents==0.3.0
+langsmith[openai-agents]==0.4.29
